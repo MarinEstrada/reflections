@@ -1,0 +1,50 @@
+How did viewing a diff between files help me spot a bug?
+
+I used the command "diff -u oldfile.extension newfile.extension" and the shell outputed some useful info
+I should do this because its easier to find what i changed, this is especially useful if there are thousands of lines of code...
+Note: I'll use this for VC practice!
+What is VC? Got to google this -> VC = version control
+
+NEXT REFLECTION:
+How could having the entire history of a file make me a more efficient programmer?
+Well it could show how I have changed as a programmer, shows me wahat mistakes a do often and so forth.
+It could also help me find similar issubugs i may have commited in the past, or maybe i can find a bug that became present several versions ago
+
+New reflection: Manual Commits
+What do i think are the pros and cons of manually choosing when to create a commit (like in git) vs versions auto saving (like google docs)?
+WELL... The thing with coding is that you will beed to eventually compile the code, if the code...
+If the code autosaves, it may save at a point when the code can't compile
+But by saving manually, you can make sure its always at a compiling point, and you can add a note about what change you have made!
+
+
+Reflect: multi-file commits
+Why do some veVC systems allow saving muliple files in one commit while other(like google docs) treat each file seperately?
+Well, some VC systems (i.e.: git) allow multiple files saved per commit because in some projects the files are interconnected, e.g.: if you change something in file A you must also change it in file B
+
+
+Reflect: Using Get to View History
+we can use git to view the history using the command "git log", at which point it will show a log with the newest commits at the top and the oldest commits as the bottom.
+If I wanted to compare two commits, i would use the command "git diff id_1 id_2"
+id_1 = the older commit,
+and
+id_2 = the newer commit!
+
+Side note: "git clone"
+coppies an entire repository onto your computer! uses following format:
+"git clone url", where url = the location of teh repository (e.g.:https://github.com/udacity/asteroids.git)
+
+
+Side note : git checkout id
+go back to a previous commit, if you detach from headstate and wish to save changes made to a previous commimit as a seperate branch, use the option -b
+e.g: "git checkout -b <new-branch-name>"
+NOTE: once you have used checkout to go to a previous commit, if you use "git log" you will no longer see the commits that have occured after the pcurrent head of "headless state", might be a good idea to remember what the true head id is.
+
+
+Reflect: Confidence from VC
+How might using vc make me more confident to make changes that could break something?
+Well... obviously it would make me much more confident! As long as i'm not lazy with my commits,, if i break something I can always backtrack with little issue!
+
+One other thing... with version control you can change things that are at the base of your project without fear of ruining everything!
+
+Reflect: How do I want to use git?
+I want to use it to work around in my files the way I used to, and I'd also like to start working on my projects with it

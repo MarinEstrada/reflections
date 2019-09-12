@@ -1,0 +1,3 @@
+Learned some new things, basically had more practice with things learned in lesson one to be honest.
+Don't forget, if you want to know what caused a bug to be introduced take a look at the file before and the one that introduced the bug using "git diff"
+Also, if you don't know where the bug was introduced yet, use the comments of each commit as a hint! For example if you know that the bug has something to do with say... clones in a game (see the game pappy-pakia), look for a comment that mentions some sort of change to the clones!
