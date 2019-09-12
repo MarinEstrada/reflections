@@ -58,3 +58,14 @@ instead use THE FOLLOWING COMMAND:
 
 Reflect:How can I use the staging area to make sure I have one logical change per commit.
 even if i have created more than one logical change in the working directory, by using the staging area i can add in each logical change one at a time (if i keep things organized) as its own commit
+
+Reflections: Branches
+You can use branches to test out new features, or experemental changes
+to see what branches are available in a repository, do 'git branch' with no extra arguments, the branch with the asterisk is the one you are currently on.
+to create a new branch, use the command 'git branch BRANCH_NAME'
+
+don't forget, when you want to work on a particular branch, use 'git checkout BRANCH_NAME'
+using branches would helpful for organizing different potential ideas and directions a project might head
+if you want a better view of how your branches are organized, use the following line of code/command
+"git log --graph --oneline master coins[D[D[D[D[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C[Cbranch1 branch2"
+--oneline makes it easier to read, and then after that input all the branch names you wish to see as arguments
