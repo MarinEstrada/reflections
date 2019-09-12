@@ -52,3 +52,9 @@ if I want to see the difference between my most recent commit (i.e.: the reposit
 
 Reflections: 'git reset --hard'
 BEWARE, if you use this, any changes made in your staging area AND in your working directory, will be reversed. maybe better to not use.
+If you wish to use something from staging area, do not use git reset (might have unforceen consequences)
+instead use THE FOLLOWING COMMAND:
+"git restore --staged <file>..." to unstage
+
+Reflect:How can I use the staging area to make sure I have one logical change per commit.
+even if i have created more than one logical change in the working directory, by using the staging area i can add in each logical change one at a time (if i keep things organized) as its own commit
