@@ -40,3 +40,12 @@ It should be noted, that if you close the window without writing anything, the c
 even if you hit enter (i.e.: creating new line characters), if there is nothing else then the commit will still be aborted
 wait.. actually new lines may in fact = something written... you need to save the commit?
 after commit is made: the staging area will be empty unless a tracked file has changes made to it or another file is added in (viewable via 'git status')
+
+UPDATE TO WHAT IS STAGING AREA AND OTHERS
+repository: collection of commits
+staging area: copy of the most recent commit until i add files to it
+working directory: basically my hard drive 
+
+so... what if i make changes , but haven't added them or commited them yet? I can  use 'git diff' with no additional arguments and it will show the differences between my staging area and my working directory, when i add something to my staging area, there will no longer be a difference between the two (until i make more changes) and it diff will no longer show the changes. cool!
+
+if I want to see the difference between my most recent commit (i.e.: the repository) and my staging area, use the command 'git diff --staged'
