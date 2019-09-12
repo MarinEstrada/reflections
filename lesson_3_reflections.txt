@@ -1,0 +1,42 @@
+Reflections: having initialized my first git repository
+Not going to lie, I'm feeling pretty fly, like flying in da sky, word
+
+Sick rhymes aside, its pretty cool. I used the command "git init" in my chosen folder where I wished to create a prrepository. I then checked on the status of the repository by typing in "git status"
+I actually created the folder as well as 2 new reflection text files (for lesson 2 and 3) to do this. None of the files are being trackd by the repository yet, and it feels pretty intuitive on how to do ( i mean git status litterally tells me how to get git to track a file) but going to wait for the lesson people to tell me how to do it.
+
+Forgot to mention...
+What happens when you initialize a repository?
+basically a hidden file (one that biegins with a period) gets created to store meta data (whatever that means) of all the coppies and changes one makes and commits! This is stored in the hidden file ".git"
+* I meant hidden folder not hidden file
+
+So now I'm adding stuff to the git repository
+There are 3 things to think of:
+Working directory - Staging area - Repository
+Working directory = my hard drive
+Staging area = Intermediate stage
+Repository = the area where stuff gets commited
+
+I can add stuff to my staging area (to later be commited) by using the command git add
+then I can use git status to see what will be commited if I were to cmake a commit!
+Note that If i fuck up, I can reset my staging area using the command "git g.:
+If i were to add 'file1.txt' and 'file2.txt' to my staging area, but then changed my mind and only wanted to have 'file1.txt' in my staging area... I could remove the [C[Cther file by using the command 'git reset file2.txt'
+
+Reflections: How is staging area different from working directory and repository
+I suppose its sort of like limbo, its no onget purely apart of the working directory, but its fate is not certain. will it be commited? Will it change further before being commited? no one knows~ 
+well we do know. but ...you know. 
+i guess the repository is pretty set in stone, or.. photo. its like a collection of snapshots from multiple points in time that we can always go back to. while the working directory is thee now, and the staging area is the view of any of those snapshots from the repository? I'm not too sure now to be honest. But I hope thats right!
+
+Reflections: Time to commit!
+I can commit whatever I have in the staging area using:
+"git commit" (which will open up my chosen editor to write my message)
+or
+'''
+git commit -m "Commit Message"
+''' where my 'Commit message' is whatever the message is supposed to be
+
+At first the commmit didn't work opening my main editor. for some reason git bash refuses to work to open 'sublime-text.exe' however when i editted my core edditor (this viewable via command 'git config --list' to open 'subl.exe' it works great!
+It should be noted, that if you close the window without writing anything, the commit will be aborted (empty lines do not count as writing something)
+
+even if you hit enter (i.e.: creating new line characters), if there is nothing else then the commit will still be aborted
+wait.. actually new lines may in fact = something written... you need to save the commit?
+after commit is made: the staging area will be empty unless a tracked file has changes made to it or another file is added in (viewable via 'git status')
