@@ -49,3 +49,6 @@ working directory: basically my hard drive
 so... what if i make changes , but haven't added them or commited them yet? I can  use 'git diff' with no additional arguments and it will show the differences between my staging area and my working directory, when i add something to my staging area, there will no longer be a difference between the two (until i make more changes) and it diff will no longer show the changes. cool!
 
 if I want to see the difference between my most recent commit (i.e.: the repository) and my staging area, use the command 'git diff --staged'
+
+Reflections: 'git reset --hard'
+BEWARE, if you use this, any changes made in your staging area AND in your working directory, will be reversed. maybe better to not use.
