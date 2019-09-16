@@ -67,7 +67,7 @@ to create a new branch, use the command 'git branch BRANCH_NAME'
 don't forget, when you want to work on a particular branch, use 'git checkout BRANCH_NAME'
 using branches would helpful for organizing different potential ideas and directions a project might head
 if you want a better view of how your branches are organized, use the following line of code/command
-"git log --graph --oneline master coins branch1 branch2"
+"git log --graph --oneline branch1 branch2"
 --oneline makes it easier to read, and then after that input all the branch names you wish to see as arguments
 note that if you are wanting to create a new branch and then use checkout... instead of preforming 2 commands ( 'git branch newbranch' then 'git checkout newbranch')...
 you can just do it all in one command:
@@ -86,4 +86,22 @@ if you want to just merge branch 2 in to branch 1, checkout branch 1 and type:
 'git merge branch2', or if you want to keep mental track of stuff 'git merge branch1 branch2'
 when the branches are merged, they will be organized in 'git log' via timestamp. If you want to commpare a particular commit against its parent without having to hunt down which is the parent, just use 'git show ID' 
 now that you've merged the brances, if you want you can use 'git branch -d branchName' to delete the name of the branch, this won't delete the commits, it will just delete the branch name (making it potentially hard or impossible to find the commits if you haven't merged them yet)
+NOTE: if you fuck up you can always just recreate the name that you just deleted!
+
+Auto commiting vs manual commiting
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+when auto committing is super easy and just done, but its important to have the warning for manual commiting so that there aren't any disasterous or redundant conflicts in code!.
+
+IF THERE IS A CONFLICT IN MERGING:
+open up the file and see that the area of conflict has been seperated into three sections. 
+the 1st:
+	head will refer to the changes you have made in the current checked out branch
+the 2nd:
+	will refer to the original code from before the branches branched off/split
+the 3rd: will refer to the changes present in the branch that is merging into the currently checked out branch.
+NOTE:
+You may have to change something outside of these sections to fix the resulution, the reason is a change may have been made that didn't cause a conflict, e.g.: say one of the conflicts refer to a new function created elsewhere that didn't make a conflict warning.
+
+
+Side note, if you only want to see the last... say 3 commits. use the code 'git log -n3'
 
