@@ -1,3 +1,4 @@
+INITIALIZING REPOSITORY
 Reflections: having initialized my first git repository
 Not going to lie, I'm feeling pretty fly, like flying in da sky, word
 
