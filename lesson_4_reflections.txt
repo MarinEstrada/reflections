@@ -46,3 +46,19 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	in cases where you are working in a group, if a group member adds something and it automatically gets pulled into your local repo, then your work might get lost if you were working on a different version of the same new commit. its better to just manually pull when you think its a good idea.
 
+FORKS:
+forks are basically clones of remotes on github, that gives credit to the original creator! After you create a fork, you can grab the url from your own profile to clone the repo onto your local computer
+
+REFLECTION:
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	branches: different variation of the 'master' that exists in the same repo
+
+	clone: copy of a repo (which may then be eddited) that was either coppied from...
+		github onto your local disk
+		or
+		from your local disk onto another location in your local disk
+
+	fork: a clone from a repo on github, onto your own repo on github, which credits the creator. 
+	You can then clone it from your github onto your local disk.
+
