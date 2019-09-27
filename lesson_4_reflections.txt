@@ -1,0 +1,32 @@
+LESSON 4: Using github
+learning how to transfter files from local repository onto github
+STEPS:
+1 create an empty repository on github this is going to be a remote repository, which is more comonly known as "remotes"
+	you can push and pull data from remots, what you send and receive are in the form of commits.
+
+	BUT instead of sending individual commits, the most common way to push and pull data is by pushing/pulling a branch, thus getting all the commits associated with that branch
+		Note: if a commit already exists in one of the repositories it will not resend that commit, only all the new commits not yet associated with the branch.
+		it would be innificient to resend each commit over and over each time
+
+create empty repository on github (using the plus sign) 
+	if you were to be creating an empty repository an would have no commits to put in, then initialize with readme. Otherwise not needed
+
+On you command line, use 
+'git remote' 
+to see what remotes (remote repositories) exist
+
+to add a repo, use the following command:
+'git remote add REMOTE_NAME URL'
+remote name -> if you only have one remote for that repository its standard to name it 'origin', 
+the url will be available via github. copy and paste
+
+afterwards, to verify that the url was added correctly... use the following command:
+'git remote -v'
+-v = verbose
+
+from local to remote!
+use command 
+'git push -u REMOTE_NAME BRANCH_NAME'
+-u = sets the branch you are curently pushing as upstream, this is good for branches such as the master branch
+
+note you can also add commits to remote directly on github!
