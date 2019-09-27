@@ -30,3 +30,8 @@ use command
 -u = sets the branch you are curently pushing as upstream, this is good for branches such as the master branch
 
 note you can also add commits to remote directly on github!
+
+to pull from remote onto local repo, use the same format but with the pull command
+i.e.:
+'git pull REMOTE_NAME BRANCH NAME'
+if you just want to pull from the pustream, 'git pull' is enough
