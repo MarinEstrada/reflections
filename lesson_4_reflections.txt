@@ -40,3 +40,8 @@ REFLECTIONS:
 When would you want to use a remote repository rather than keeping all your work local?
 
 	This would be ideal when you don't have access to your personal computer
+
+REFLECTIONS: Remote vs Manual pull
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	in cases where you are working in a group, if a group member adds something and it automatically gets pulled into your local repo, then your work might get lost if you were working on a different version of the same new commit. its better to just manually pull when you think its a good idea.
