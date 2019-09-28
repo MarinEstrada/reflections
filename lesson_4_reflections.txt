@@ -81,3 +81,9 @@ Answer: FAST FORWARD MERGES
 	Basically, if you try and merge two commits, where the branch your merging into, is an ancestor of the branch youre merging from, then there is no point in doing the merge message (the merge message is so that the new merge has all the info from both commits) because one of those commits already has all the info for both!
 	SO... all you have to do is update the lable to point to the most recent of the two (aka: the parent) to be the tip
 
+REFLECTION: Local copies of Remote branches
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	If you ever mess up, you can always go back to the local copy
+	if you ever need to work while offline, you can fetch to have the latest update, then work offline and figure out the details when you have more time
+	
