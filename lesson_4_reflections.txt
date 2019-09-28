@@ -62,3 +62,11 @@ Describe the differences between forks, clones, and branches. When would you use
 	fork: a clone from a repo on github, onto your own repo on github, which credits the creator. 
 	You can then clone it from your github onto your local disk.
 
+FETCH
+what to do when you need to merge github repository with your local repository
+is used to update the local COPY (not the local version which youre working on) of your local repository.essentially creating a new branch on your local. 
+Then you can compaire the two and fix any conflicts which may arise whether you be offline or not
+NOTE:
+	'git fetch origin' + 'git merge master origin/master'
+	IS THE SAME AS
+	'git pull origin master'
