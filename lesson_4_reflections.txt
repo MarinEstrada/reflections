@@ -88,4 +88,21 @@ What is the benefit of having a copy of the last known state of the remote store
 
 	If you ever mess up, you can always go back to the local copy
 	if you ever need to work while offline, you can fetch to have the latest update, then work offline and figure out the details when you have more time
+
+
+PULL REQUESTS
+i.e.: make a seperate branch locally, push change to github, ask colaborator to check, if eveyone is happy we merge it into the master branch
+	DETAILS:
+	-make the seperate branch locally
+	-make changes
+	-commit them
+	-push them using command:
+		'git push origin SEPERATE_BRANCH_NAME'
+	-go to github, switch to the newbranch
+	-create pull request
+		-make sure you're requesting to be pulled into the correct base!
+	-other person reviews
+	-will either say no, or yes
+	-if there is a conflict, they will ask you to merge into your own branch first and will want to see how you resolve the conflict
+
 	
