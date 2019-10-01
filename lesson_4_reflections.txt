@@ -49,6 +49,8 @@ Why might you want to always pull changes manually rather than having Git automa
 FORKS:
 forks are basically clones of remotes on github, that gives credit to the original creator! After you create a fork, you can grab the url from your own profile to clone the repo onto your local computer
 
+NOTE: when you use 'git clone URL', github automatically sets up a remote for you, so you don't need to do so yourself! 
+
 REFLECTION:
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
