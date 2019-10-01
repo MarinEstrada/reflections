@@ -20,7 +20,7 @@ Repository = the area where stuff gets commited
 I can add stuff to my staging area (to later be commited) by using the command git add
 then I can use git status to see what will be commited if I were to cmake a commit!
 Note that If i fuck up, I can reset my staging area using the command "git g.:
-If i were to add 'file1.txt' and 'file2.txt' to my staging area, but then changed my mind and only wanted to have 'file1.txt' in my staging area... I could remove the [C[Cther file by using the command 'git reset file2.txt'
+If i were to add 'file1.txt' and 'file2.txt' to my staging area, but then changed my mind and only wanted to have 'file1.txt' in my staging area... I could remove the other file by using the command 'git reset file2.txt'
 
 Reflections: How is staging area different from working directory and repository
 I suppose its sort of like limbo, its no onget purely apart of the working directory, but its fate is not certain. will it be commited? Will it change further before being commited? no one knows~ 
