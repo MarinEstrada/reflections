@@ -105,4 +105,10 @@ i.e.: make a seperate branch locally, push change to github, ask colaborator to 
 	-will either say no, or yes
 	-if there is a conflict, they will ask you to merge into your own branch first and will want to see how you resolve the conflict
 
-	
+REFLECTION: Collaboration using Git and GitHub
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I'd probably be sending files via email, back and forth. it would be easier in the sense that there is nothing new to learn, 
+
+	But harer in that it would be more difficult to actually spot ALL the changes made, and if one wished to role back it would also be harder. not to mention the amount of save space it would take to have all those files, and actually even sending the files would be troublesom if one had to do it by email and it was a huge project! also one doesn't know if osmeone else is also makeing changes and ... yeah its harder...
+
