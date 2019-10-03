@@ -121,3 +121,8 @@ use the commands:
 	FOR STAGING AREA:
 		'git restore --staged <file>...' to unstage files from staging area
 
+NOTE: Diff between git and github
+	git is the version control tool that github is built on
+
+	git is local
+	github is where we share and colaborate
