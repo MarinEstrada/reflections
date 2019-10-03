@@ -126,3 +126,9 @@ NOTE: Diff between git and github
 
 	git is local
 	github is where we share and colaborate
+
+
+REFLECTIONS: When to use a seperate branch
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	It would be good whenever you want to add a new feature of any kind, or try and do any sort of experement. By doing it in a seperate branch, it give you the chance to check in with colaborators and see that everyone agrees with it, and it also allows you to make sure you don't completely fuck up your master branch.
