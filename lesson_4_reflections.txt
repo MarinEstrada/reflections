@@ -112,3 +112,12 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 	But harer in that it would be more difficult to actually spot ALL the changes made, and if one wished to role back it would also be harder. not to mention the amount of save space it would take to have all those files, and actually even sending the files would be troublesom if one had to do it by email and it was a huge project! also one doesn't know if osmeone else is also makeing changes and ... yeah its harder...
 
+NOTE: How to discard changes in working directory OR staging area
+use the commands:
+
+	FOR WORKING DIRECTORY:
+		'git resore <file>...' to discard changes in the working directory (NOTE: this is not for staging area)
+
+	FOR STAGING AREA:
+		'git restore --staged <file>...' to unstage files from staging area
+
