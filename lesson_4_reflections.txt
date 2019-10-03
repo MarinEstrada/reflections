@@ -132,3 +132,5 @@ REFLECTIONS: When to use a seperate branch
 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
 	It would be good whenever you want to add a new feature of any kind, or try and do any sort of experement. By doing it in a seperate branch, it give you the chance to check in with colaborators and see that everyone agrees with it, and it also allows you to make sure you don't completely fuck up your master branch.
+
+NOTE: If you need to create a remote refering to an original master (eg: you forked something and something changed in the master since you originally forked, and now youre making a pull request with the original master but there is a conflict so you need to create a new remote to 'pull'the changes and then fix your changes to acommadate that) It is customary to name the new remote 'upstream' because it is upstream from oneself
