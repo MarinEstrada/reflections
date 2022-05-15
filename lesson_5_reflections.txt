@@ -1,0 +1,13 @@
+to rebase use command:
+	'git rebase -i NEWBASE~#'
+		-i = interactive, change the history of commits or combine several into 1
+		NEWBASE = The new base, if newbase is the same branch use 'HEAD'
+		~# = how many commits you'd like to edit, only use in conjunction with -i 
+
+
+Want to move branches without committing, and without losing work?
+use command
+        "git stash"
+will save in a stack! To require stashed stuff, use 
+        "git stash pop"
+NOTE: this command wil return the whole stack. to only retrieve N items, need to learn functionality
